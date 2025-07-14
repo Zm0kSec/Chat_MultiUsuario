@@ -1,4 +1,4 @@
-# AnonChat_Terminal: Chat Multiusuario Seguro (SSL) con Estilo Hacker
+# AnonChat_Terminal: Chat Multiusuario Seguro (SSL)
 
 ![AnonChat Screenshot](https://github.com/Zm0kSec/Chat_MultiUsuario/blob/main/image.png)
 
