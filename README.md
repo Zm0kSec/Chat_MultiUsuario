@@ -35,7 +35,7 @@ Abre tu terminal (PowerShell en Windows, Terminal en macOS/Linux) y ejecuta:
 
 ```bash
 git clone https://github.com/Zm0kSec/Chat_MultiUsuario.git
-cd tu_repositorio
+cd Chat_MultiUsuario
 ```
 
 
