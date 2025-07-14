@@ -34,16 +34,17 @@ Asegúrate de tener lo siguiente instalado en tu PC:
 Abre tu terminal (PowerShell en Windows, Terminal en macOS/Linux) y ejecuta:
 
 ```bash
-git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/tu_usuario/tu_repositorio.git)
+git clone https://github.com/Zm0kSec/Chat_MultiUsuario.git
 cd tu_repositorio
-(¡Importante! Reemplaza https://github.com/tu_usuario/tu_repositorio.git con la URL real de tu repositorio de GitHub.)
+```
+
 
 b) Instalar Dependencias de Python
 Desde la misma carpeta del proyecto en tu terminal, instala la librería CustomTkinter:
 
-Bash
-
+```bash
 pip install customtkinter
+```
 Las demás librerías (socket, threading, ssl, re, smtplib, email, tkinter) son estándar en Python y ya deberían estar instaladas.
 
 c) Generar Certificados de Seguridad (SSL)
@@ -51,9 +52,9 @@ Este chat usa SSL/TLS para una comunicación segura. Necesitas generar dos archi
 
 Desde la carpeta del proyecto en tu terminal, ejecuta este comando:
 
-Bash
-
+```bash
 openssl req -x509 -newkey rsa:2048 -keyout server-key.key -out server-cert.pem -days 365 -nodes
+```
 ¿Qué hace este comando? Genera un certificado autofirmado (server-cert.pem) y una clave privada (server-key.key) válidos por 365 días. La opción -nodes significa "no des-encriptar", lo cual es conveniente para este ejemplo porque no te pedirá una contraseña cada vez que inicies el servidor.
 
 Durante el proceso: openssl te hará varias preguntas (país, estado, ciudad, organización, etc.). Puedes dejar la mayoría en blanco si lo deseas, excepto por "Common Name (e.g. server FQDN or YOUR name)", donde puedes escribir localhost o cualquier nombre que quieras.
@@ -99,9 +100,10 @@ Verás el mensaje "Waiting for connection". Deja esta terminal abierta y en ejec
 b) Iniciar los Clientes
 Abre una o más terminales nuevas (cada terminal será un usuario diferente), navega a la carpeta de tu proyecto (cd tu_repositorio) y ejecuta en cada una:
 
-Bash
-
+```bash
 python Client_chat_finish.py
+```
+
 Paso a paso del Cliente:
 
 Te pedirá un nombre de usuario. Ingrésalo (ej. zmk, froat, sudo).
