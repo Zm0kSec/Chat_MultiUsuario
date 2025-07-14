@@ -74,7 +74,7 @@ Sigue las instrucciones para generar una nueva contraseña de aplicación (será
 
 Actualiza el Código del Servidor:
 
-Abre el archivo Server_Chat_finish.py en un editor de texto.
+Abre el archivo Server_Chat_.py en un editor de texto.
 
 Busca las líneas:
 
@@ -94,14 +94,14 @@ Abre una terminal nueva, navega a la carpeta de tu proyecto (cd tu_repositorio) 
 
 Bash
 
-python Server_Chat_finish.py
+python Server_Chat.py
 Verás el mensaje "Waiting for connection". Deja esta terminal abierta y en ejecución.
 
 b) Iniciar los Clientes
 Abre una o más terminales nuevas (cada terminal será un usuario diferente), navega a la carpeta de tu proyecto (cd tu_repositorio) y ejecuta en cada una:
 
 ```bash
-python Client_chat_finish.py
+python Client_chat.py
 ```
 
 Paso a paso del Cliente:
@@ -152,13 +152,13 @@ Certificados SSL: Los certificados generados son autofirmados y solo válidos po
 
 Seguridad de Credenciales: La contraseña de aplicación de Gmail está directamente en el código del servidor. Para proyectos reales, considera usar variables de entorno o un sistema de gestión de secretos para mantener estas credenciales seguras.
 
-Personalización del Estilo: Abre Client_chat_finish.py y experimenta con las constantes al principio del archivo (THEME_COLOR_PRIMARY, THEME_COLOR_SECONDARY, FONT_FAMILY, etc.) para cambiar la apariencia del chat a tu gusto.
+Personalización del Estilo: Abre Client_chat.py y experimenta con las constantes al principio del archivo (THEME_COLOR_PRIMARY, THEME_COLOR_SECONDARY, FONT_FAMILY, etc.) para cambiar la apariencia del chat a tu gusto.
 
 Resolución de Problemas:
 
 Si el cliente no se conecta, asegúrate de que el servidor esté en ejecución y que no haya errores en su terminal.
 
-Si los certificados dan problemas, intenta regenerarlos con el comando openssl y asegúrate de que estén en la misma carpeta que Server_Chat_finish.py.
+Si los certificados dan problemas, intenta regenerarlos con el comando openssl y asegúrate de que estén en la misma carpeta que Server_Chat.py.
 
 Si los correos no se envían, verifica tu contraseña de aplicación de Gmail y asegúrate de que tu cuenta tenga la verificación en dos pasos activada.
 
