@@ -1,6 +1,6 @@
 # AnonChat_Terminal: Chat Multiusuario Seguro (SSL) con Estilo Hacker
 
-![AnonChat Screenshot](https://raw.githubusercontent.com/Zm0kSec/Chat_MultiUsuario/main/docs/image.png)
+![AnonChat Screenshot](https://github.com/Zm0kSec/Chat_MultiUsuario/blob/main/image.png)
 
 
 Bienvenido a `AnonChat_Terminal`, un sistema de chat multiusuario seguro y de código abierto desarrollado en Python. Este proyecto utiliza cifrado SSL/TLS para proteger tus comunicaciones y presenta una interfaz de usuario minimalista con una estética inspirada en terminales y el "modo hacker", gracias a la magia de [CustomTkinter](https://customtkinter.tomschimansky.com/).
