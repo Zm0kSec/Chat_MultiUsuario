@@ -1,7 +1,7 @@
 # AnonChat_Terminal: Chat Multiusuario Seguro (SSL) con Estilo Hacker
 
-![AnonChat Screenshot](https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/docs/screenshot.png)
-*(Reemplaza este enlace con una captura de pantalla real de tu chat en acción. **Crea una carpeta `docs` en la raíz de tu repositorio y guarda tu imagen ahí** para que el enlace funcione.)*
+![AnonChat Screenshot](https://raw.githubusercontent.com/Zm0kSec/Chat_MultiUsuario/main/docs/image.png)
+
 
 Bienvenido a `AnonChat_Terminal`, un sistema de chat multiusuario seguro y de código abierto desarrollado en Python. Este proyecto utiliza cifrado SSL/TLS para proteger tus comunicaciones y presenta una interfaz de usuario minimalista con una estética inspirada en terminales y el "modo hacker", gracias a la magia de [CustomTkinter](https://customtkinter.tomschimansky.com/).
 
@@ -21,7 +21,7 @@ Sigue estos pasos para poner en marcha tu `AnonChat_Terminal`. ¡No necesitas se
 
 ### 1. Requisitos del Sistema
 
-Asegúrate de tener lo siguiente instalado en tu computadora:
+Asegúrate de tener lo siguiente instalado en tu PC:
 
 * **Python 3.x:** Puedes descargarlo desde [python.org/downloads/](https://www.python.org/downloads/).
 * **Git:** Para clonar este repositorio. Descárgalo desde [git-scm.com/downloads](https://git-scm.com/downloads).
